@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "mains",
+  "info": {
+    "singularName": "main",
+    "pluralName": "mains",
+    "displayName": "Main"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headerSmall": {
+      "type": "text"
+    },
+    "headerBig": {
+      "type": "richtext"
+    }
+  }
+}
