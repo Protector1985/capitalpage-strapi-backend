@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_heads",
+  "info": {
+    "singularName": "blog-head",
+    "pluralName": "blog-heads",
+    "displayName": "blogHead"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "txtBig": {
+      "type": "string"
+    },
+    "txtSmall": {
+      "type": "richtext"
+    }
+  }
+}

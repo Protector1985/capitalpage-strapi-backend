@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_heads",
+  "info": {
+    "singularName": "home-head",
+    "pluralName": "home-heads",
+    "displayName": "homeHead"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "txtBig": {
+      "type": "string"
+    },
+    "txtSmall": {
+      "type": "richtext"
+    }
+  }
+}
