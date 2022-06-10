@@ -13,15 +13,23 @@
   "pluginOptions": {},
   "attributes": {
     "Headline": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "maxLength": 60
     },
-    "Text": {
-      "type": "richtext"
+    "Article": {
+      "type": "richtext",
+      "required": true
     },
-    "Picture": {
+    "MetaDescription": {
+      "type": "text",
+      "required": true,
+      "maxLength": 155
+    },
+    "Pictures": {
       "type": "media",
-      "multiple": false,
-      "required": false,
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -29,11 +37,21 @@
         "audios"
       ]
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "posts"
+    "Author": {
+      "type": "string",
+      "required": true,
+      "default": "Michael"
+    },
+    "ProfilePic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
